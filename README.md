@@ -14,3 +14,12 @@ The code will read the .txt file from Data folder and visualize it, then save th
 
 3) Run K-means, unsupervised machine learning algorithm for separating our unlabeled dataset. 
 python 3.K_means.py
+
+The code runs the algorithm, determines the clusters, creates nice "each-step" plot.
+
+4) Create the Animation from the result by running
+python 4.Animating_K_means_clustering.py
+
+The code creates the animation using imageio python module and saves it to the rest of the step-by-step images.
+
+
