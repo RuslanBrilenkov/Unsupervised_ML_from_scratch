@@ -1,4 +1,4 @@
-# Unsupervised_ML_in_Python_from_scratch
+# Unsupervised_ML_from_scratch
 This repository is dedicated for those who would like to get a hands-on experiense in Unsupervised Machine Learning algorithms. The idea is to write the algorithms from scratch based on the intrinsic understanding of the algorithm, i.e., with the minimum necessary extra packages. I will describe the algorithm and upload my Python codes. The comments are welcome. I got an initial idea from the book "Machine Learning for Human Beings" by Mohit Deshpande however the further improvements and advances and the complete program I wrote by myself.
 
 
