@@ -19,8 +19,8 @@ def MakePlot(data, labels):
 	
 	plt.figure()
 	plt.scatter(data[:,0], data[:,1], c=labels, cmap='viridis')
-	plt.xlim(-20,20)
-	plt.ylim(-20,20)
+	plt.xlim(-120,120)
+	plt.ylim(-120,120)
 	plt.savefig(folderPlotsName+'random_blobs.png')
 
 def Create_More_Plots(data, labels):
@@ -33,8 +33,8 @@ def Create_More_Plots(data, labels):
 	# create a bit more advanced scatter plot than previous method
 	plt.figure(figsize=[14,12])
 	plt.scatter(data[:,0], data[:,1], c=labels, cmap='viridis', marker='+', s=500)
-	plt.xlim(-20,20)
-	plt.ylim(-20,20)
+	plt.xlim(-120,120)
+	plt.ylim(-120,120)
 	plt.xlabel('feature 1', fontsize=18)
 	plt.ylabel('feature 2', fontsize=18)
 	plt.savefig(folderPlotsName+"data_colored.png", bbox_inches='tight', overwrite=True)
@@ -42,8 +42,8 @@ def Create_More_Plots(data, labels):
 	# create another scatter plot
 	plt.figure(figsize=[14,12])
 	plt.scatter(data[:,0], data[:,1], color='black', marker='+', s=500)
-	plt.xlim(-20,20)
-	plt.ylim(-20,20)
+	plt.xlim(-120,120)
+	plt.ylim(-120,120)
 	plt.xlabel('feature 1', fontsize=18)
 	plt.ylabel('feature 2', fontsize=18)
 	plt.savefig(folderPlotsName+"data_uncolored.png", bbox_inches='tight', overwrite=True)
