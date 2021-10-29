@@ -12,7 +12,7 @@ The code will create the Data/ folder if it is not present. And save the generat
 2) Run the visualising code as
 ```
 python 2.Visualising_Data.py
-`` 
+```
 
 The code will read the .txt file from Data folder and visualize it, then save the plots into Plots/ folder (again, if it is not present the code takes care of creating it).
 
